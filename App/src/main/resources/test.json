@@ -1,0 +1,115 @@
+[
+  {
+    "type": "simple",
+    "text": "Как установить имя элементу в xaml-коде?",
+    "score": 1.0,
+    "variants": [
+      {"text": "Использовать свойство ID"},
+      {"text": "Использовать свойство Name", "success": true},
+      {"text": "Использовать свойство Nickname"},
+      {"text": "Использовать свойство Virable"}
+    ]
+  },
+  {
+    "type": "field",
+    "text": "Какое свойство задаёт модификатор доступа для объекта в xaml-коде?",
+    "img": ["img1.png"],
+    "score": 2.0,
+    "correct": "FieldModifier"
+  },
+  {
+    "type": "multiple",
+    "text": "Укажите свойства отвечающие за позиционирование контента",
+    "img": ["img3.png","img4.png"],
+    "score": 1.0,
+    "variants": [
+      {"text": "HorizontalContentAlignment","success": true},
+      {"text": "Padding"},
+      {"text": "VerticalContentAlignment","success": true},
+      {"text": "Content"}
+    ]
+  },
+  {
+    "type": "simple",
+    "text": "Как называется событие нажатия на кнопку?",
+    "score": 1.0,
+    "variants": [
+      {"text": "Action"},
+      {"text": "Select"},
+      {"text": "Focus"},
+      {"text": "Click","success": true}
+    ]
+  },
+  {
+    "type": "simple",
+    "text": "Какая кнопка непрерывно генерирует событие нажатия?",
+    "score": 1.0,
+    "variants": [
+      {"text": "ToggleButton"},
+      {"text": "Button"},
+      {"text": "RadioButton"},
+      {"text": "RepeatButton","success": true}
+    ]
+  },
+  {
+    "type": "simple",
+    "text": "Сколько состояний существует у элемента CheckBox?",
+    "score": 1.0,
+    "variants": [
+      {"text": "1"},
+      {"text": "2"},
+      {"text": "3","success": true},
+      {"text": "4"}
+    ]
+  },
+  {
+    "type": "simple",
+    "text": "Какое свойство объединяет RadioButton в группу?",
+    "score": 1.0,
+    "variants": [
+      {"text": "Group"},
+      {"text": "Bind"},
+      {"text": "Ref"},
+      {"text": "GroupName","success": true}
+    ]
+  },
+  {
+    "type": "simple",
+    "text": "Какое свойство назначает элементу всплывающую подсказку?",
+    "img": ["img2.gif"],
+    "score": 1.0,
+    "variants": [
+      {"text": "Hint"},
+      {"text": "Hover"},
+      {"text": "ToolTip","success": true},
+      {"text": "HintView"}
+    ]
+  },
+  {
+    "type": "multiple",
+    "text": "Перечислите контейнеры WPF",
+    "score": 1.0,
+    "variants": [
+      {"text": "Grid","success": true},
+      {"text": "AnchorePanel"},
+      {"text": "StackPanel","success": true},
+      {"text": "WrapPanel","success": true},
+      {"text": "WrapGrid"},
+      {"text": "Canvas","success": true},
+      {"text": "DockPanel","success": true},
+      {"text": "UniformGrid","success": true},
+      {"text": "StackGrid"}
+    ]
+  },
+  {
+    "type": "multiple",
+    "text": "В WPF при компоновке и расположении элементов внутри окна нам надо придерживаться следующих принципов",
+    "score": 1.0,
+    "variants": [
+      {"text": "Нежелательно указывать явные размеры элементов","success": true},
+      {"text": "Нежелательно указывать явные позицию и координаты элементов внутри окна", "success": true},
+      {"text": "Нежелательно указывать явное содержимое элементов"},
+      {"text": "Нежелательно указывать относительные размеры элементов"}
+    ]
+  }
+]

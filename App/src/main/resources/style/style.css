@@ -1,0 +1,47 @@
+.root{
+    -fx-background-color: #fff;
+}
+
+.button:hover{
+    -fx-cursor: hand;
+}
+
+.button{
+    -fx-background-color: linear-gradient(to top right,rgba(221,241,255,1) 15%, rgba(234,246,255,1) 47%, rgba(241,249,255,1) 80%);
+    -fx-background-radius: 8;
+}
+
+.button:hover{
+    -fx-background-color: linear-gradient(to top right,rgba(200,232,255,1) 15%, rgba(227,243,255,1) 44%, rgba(234,246,255,1) 64%, rgba(238,248,255,1) 100%);
+}
+
+.progress-bar > .track {
+  -fx-text-box-border: transparent;
+}
+
+
+.answers-state HBox{
+    -fx-background-radius: 5;
+    -fx-background-color: #ccc;
+}
+
+.answers-state HBox:hover{
+    -fx-cursor: hand;
+}
+
+.answers-state .success{
+    -fx-background-color: #6c6;
+}
+
+.answers-state .fail{
+    -fx-background-color: #c66;
+}
+
+.answers-state .current{
+    -fx-background-color: #6cc;
+}
+
+.modal{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8;
+}
